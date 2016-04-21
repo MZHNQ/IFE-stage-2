@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+
+.container div {
+  height: 80%;
+
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+
+  margin-right: 5px;
+  padding: 3px;
+
+  display: flex;
+  align-items: center;
+}
+
+.container .root {
+  height: 150px;
+}
+
+.container .selected {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.container .highlight {
+  background-color: red;
+  color: #fff;
+}

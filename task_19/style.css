@@ -1,0 +1,28 @@
+#queue-wrap {
+  height: 200px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#queue-wrap div {
+  position: absolute;
+  bottom: 0;
+}
+
+#queue-wrap span {
+  width: 15px;
+  display: inline-block;
+  margin-right: 3px;
+  background-color: red;
+  position: relative;
+}
+
+#queue-wrap span em {
+  position: absolute;
+  bottom: -16px;
+  text-align: center;
+  font-size: 9px;
+  font-style: normal;
+  left: 50%;
+  transform: translateX(-50%);
+}
